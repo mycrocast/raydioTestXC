@@ -53,8 +53,13 @@ public struct Language : Swift.Decodable {
   public init(from decoder: any Swift.Decoder) throws
 }
 public struct ErrorLog {
+  public var workflow: SwiftRaydioSDK.WorkflowLogs
+  public var description: Swift.String
+  public var error: SwiftRaydioSDK.RaydioError
 }
 public struct InformationLog {
+  public var workflow: SwiftRaydioSDK.WorkflowLogs
+  public var description: Swift.String
 }
 @_hasMissingDesignatedInitializers public class RaydioSDK {
   public static let shared: SwiftRaydioSDK.RaydioSDK
@@ -104,6 +109,8 @@ public protocol StreamsProviding {
   var delegate: (any SwiftRaydioSDK.StreamGroupDelegate)? { get set }
 }
 public struct InteractionLog {
+  public var type: SwiftRaydioSDK.InteractionType
+  public var stream: SwiftRaydioSDK.StreamGroupEntry
 }
 public enum InteractionType {
   case play
@@ -139,6 +146,9 @@ public protocol ListenStateDelegate {
   func onListenStageChanged(_ playState: SwiftRaydioSDK.RaydioPlayState)
 }
 public struct SystemErrorLog {
+  public var workflow: SwiftRaydioSDK.WorkflowLogs
+  public var description: Swift.String
+  public var error: any Swift.Error
 }
 extension SwiftRaydioSDK.WorkflowLogs : Swift.Equatable {}
 extension SwiftRaydioSDK.WorkflowLogs : Swift.Hashable {}

@@ -1503,6 +1503,266 @@
         "kind": "TypeDecl",
         "name": "ErrorLog",
         "printedName": "ErrorLog",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "workflow",
+            "printedName": "workflow",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WorkflowLogs",
+                "printedName": "SwiftRaydioSDK.WorkflowLogs",
+                "usr": "s:14SwiftRaydioSDK12WorkflowLogsO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14SwiftRaydioSDK8ErrorLogV8workflowAA12WorkflowLogsOvp",
+            "mangledName": "$s14SwiftRaydioSDK8ErrorLogV8workflowAA12WorkflowLogsOvp",
+            "moduleName": "SwiftRaydioSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WorkflowLogs",
+                    "printedName": "SwiftRaydioSDK.WorkflowLogs",
+                    "usr": "s:14SwiftRaydioSDK12WorkflowLogsO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14SwiftRaydioSDK8ErrorLogV8workflowAA12WorkflowLogsOvg",
+                "mangledName": "$s14SwiftRaydioSDK8ErrorLogV8workflowAA12WorkflowLogsOvg",
+                "moduleName": "SwiftRaydioSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WorkflowLogs",
+                    "printedName": "SwiftRaydioSDK.WorkflowLogs",
+                    "usr": "s:14SwiftRaydioSDK12WorkflowLogsO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14SwiftRaydioSDK8ErrorLogV8workflowAA12WorkflowLogsOvs",
+                "mangledName": "$s14SwiftRaydioSDK8ErrorLogV8workflowAA12WorkflowLogsOvs",
+                "moduleName": "SwiftRaydioSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14SwiftRaydioSDK8ErrorLogV8workflowAA12WorkflowLogsOvM",
+                "mangledName": "$s14SwiftRaydioSDK8ErrorLogV8workflowAA12WorkflowLogsOvM",
+                "moduleName": "SwiftRaydioSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "description",
+            "printedName": "description",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14SwiftRaydioSDK8ErrorLogV11descriptionSSvp",
+            "mangledName": "$s14SwiftRaydioSDK8ErrorLogV11descriptionSSvp",
+            "moduleName": "SwiftRaydioSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14SwiftRaydioSDK8ErrorLogV11descriptionSSvg",
+                "mangledName": "$s14SwiftRaydioSDK8ErrorLogV11descriptionSSvg",
+                "moduleName": "SwiftRaydioSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14SwiftRaydioSDK8ErrorLogV11descriptionSSvs",
+                "mangledName": "$s14SwiftRaydioSDK8ErrorLogV11descriptionSSvs",
+                "moduleName": "SwiftRaydioSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14SwiftRaydioSDK8ErrorLogV11descriptionSSvM",
+                "mangledName": "$s14SwiftRaydioSDK8ErrorLogV11descriptionSSvM",
+                "moduleName": "SwiftRaydioSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "error",
+            "printedName": "error",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RaydioError",
+                "printedName": "SwiftRaydioSDK.RaydioError",
+                "usr": "s:14SwiftRaydioSDK0B5ErrorO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14SwiftRaydioSDK8ErrorLogV5errorAA0bD0Ovp",
+            "mangledName": "$s14SwiftRaydioSDK8ErrorLogV5errorAA0bD0Ovp",
+            "moduleName": "SwiftRaydioSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RaydioError",
+                    "printedName": "SwiftRaydioSDK.RaydioError",
+                    "usr": "s:14SwiftRaydioSDK0B5ErrorO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14SwiftRaydioSDK8ErrorLogV5errorAA0bD0Ovg",
+                "mangledName": "$s14SwiftRaydioSDK8ErrorLogV5errorAA0bD0Ovg",
+                "moduleName": "SwiftRaydioSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RaydioError",
+                    "printedName": "SwiftRaydioSDK.RaydioError",
+                    "usr": "s:14SwiftRaydioSDK0B5ErrorO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14SwiftRaydioSDK8ErrorLogV5errorAA0bD0Ovs",
+                "mangledName": "$s14SwiftRaydioSDK8ErrorLogV5errorAA0bD0Ovs",
+                "moduleName": "SwiftRaydioSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14SwiftRaydioSDK8ErrorLogV5errorAA0bD0OvM",
+                "mangledName": "$s14SwiftRaydioSDK8ErrorLogV5errorAA0bD0OvM",
+                "moduleName": "SwiftRaydioSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
         "declKind": "Struct",
         "usr": "s:14SwiftRaydioSDK8ErrorLogV",
         "mangledName": "$s14SwiftRaydioSDK8ErrorLogV",
@@ -1523,6 +1783,180 @@
         "kind": "TypeDecl",
         "name": "InformationLog",
         "printedName": "InformationLog",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "workflow",
+            "printedName": "workflow",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WorkflowLogs",
+                "printedName": "SwiftRaydioSDK.WorkflowLogs",
+                "usr": "s:14SwiftRaydioSDK12WorkflowLogsO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14SwiftRaydioSDK14InformationLogV8workflowAA12WorkflowLogsOvp",
+            "mangledName": "$s14SwiftRaydioSDK14InformationLogV8workflowAA12WorkflowLogsOvp",
+            "moduleName": "SwiftRaydioSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WorkflowLogs",
+                    "printedName": "SwiftRaydioSDK.WorkflowLogs",
+                    "usr": "s:14SwiftRaydioSDK12WorkflowLogsO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14SwiftRaydioSDK14InformationLogV8workflowAA12WorkflowLogsOvg",
+                "mangledName": "$s14SwiftRaydioSDK14InformationLogV8workflowAA12WorkflowLogsOvg",
+                "moduleName": "SwiftRaydioSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WorkflowLogs",
+                    "printedName": "SwiftRaydioSDK.WorkflowLogs",
+                    "usr": "s:14SwiftRaydioSDK12WorkflowLogsO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14SwiftRaydioSDK14InformationLogV8workflowAA12WorkflowLogsOvs",
+                "mangledName": "$s14SwiftRaydioSDK14InformationLogV8workflowAA12WorkflowLogsOvs",
+                "moduleName": "SwiftRaydioSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14SwiftRaydioSDK14InformationLogV8workflowAA12WorkflowLogsOvM",
+                "mangledName": "$s14SwiftRaydioSDK14InformationLogV8workflowAA12WorkflowLogsOvM",
+                "moduleName": "SwiftRaydioSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "description",
+            "printedName": "description",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14SwiftRaydioSDK14InformationLogV11descriptionSSvp",
+            "mangledName": "$s14SwiftRaydioSDK14InformationLogV11descriptionSSvp",
+            "moduleName": "SwiftRaydioSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14SwiftRaydioSDK14InformationLogV11descriptionSSvg",
+                "mangledName": "$s14SwiftRaydioSDK14InformationLogV11descriptionSSvg",
+                "moduleName": "SwiftRaydioSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14SwiftRaydioSDK14InformationLogV11descriptionSSvs",
+                "mangledName": "$s14SwiftRaydioSDK14InformationLogV11descriptionSSvs",
+                "moduleName": "SwiftRaydioSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14SwiftRaydioSDK14InformationLogV11descriptionSSvM",
+                "mangledName": "$s14SwiftRaydioSDK14InformationLogV11descriptionSSvM",
+                "moduleName": "SwiftRaydioSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
         "declKind": "Struct",
         "usr": "s:14SwiftRaydioSDK14InformationLogV",
         "mangledName": "$s14SwiftRaydioSDK14InformationLogV",
@@ -3759,6 +4193,180 @@
         "kind": "TypeDecl",
         "name": "InteractionLog",
         "printedName": "InteractionLog",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "type",
+            "printedName": "type",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "InteractionType",
+                "printedName": "SwiftRaydioSDK.InteractionType",
+                "usr": "s:14SwiftRaydioSDK15InteractionTypeO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14SwiftRaydioSDK14InteractionLogV4typeAA0D4TypeOvp",
+            "mangledName": "$s14SwiftRaydioSDK14InteractionLogV4typeAA0D4TypeOvp",
+            "moduleName": "SwiftRaydioSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "InteractionType",
+                    "printedName": "SwiftRaydioSDK.InteractionType",
+                    "usr": "s:14SwiftRaydioSDK15InteractionTypeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14SwiftRaydioSDK14InteractionLogV4typeAA0D4TypeOvg",
+                "mangledName": "$s14SwiftRaydioSDK14InteractionLogV4typeAA0D4TypeOvg",
+                "moduleName": "SwiftRaydioSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "InteractionType",
+                    "printedName": "SwiftRaydioSDK.InteractionType",
+                    "usr": "s:14SwiftRaydioSDK15InteractionTypeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14SwiftRaydioSDK14InteractionLogV4typeAA0D4TypeOvs",
+                "mangledName": "$s14SwiftRaydioSDK14InteractionLogV4typeAA0D4TypeOvs",
+                "moduleName": "SwiftRaydioSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14SwiftRaydioSDK14InteractionLogV4typeAA0D4TypeOvM",
+                "mangledName": "$s14SwiftRaydioSDK14InteractionLogV4typeAA0D4TypeOvM",
+                "moduleName": "SwiftRaydioSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "stream",
+            "printedName": "stream",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "StreamGroupEntry",
+                "printedName": "SwiftRaydioSDK.StreamGroupEntry",
+                "usr": "s:14SwiftRaydioSDK16StreamGroupEntryV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14SwiftRaydioSDK14InteractionLogV6streamAA16StreamGroupEntryVvp",
+            "mangledName": "$s14SwiftRaydioSDK14InteractionLogV6streamAA16StreamGroupEntryVvp",
+            "moduleName": "SwiftRaydioSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StreamGroupEntry",
+                    "printedName": "SwiftRaydioSDK.StreamGroupEntry",
+                    "usr": "s:14SwiftRaydioSDK16StreamGroupEntryV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14SwiftRaydioSDK14InteractionLogV6streamAA16StreamGroupEntryVvg",
+                "mangledName": "$s14SwiftRaydioSDK14InteractionLogV6streamAA16StreamGroupEntryVvg",
+                "moduleName": "SwiftRaydioSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StreamGroupEntry",
+                    "printedName": "SwiftRaydioSDK.StreamGroupEntry",
+                    "usr": "s:14SwiftRaydioSDK16StreamGroupEntryV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14SwiftRaydioSDK14InteractionLogV6streamAA16StreamGroupEntryVvs",
+                "mangledName": "$s14SwiftRaydioSDK14InteractionLogV6streamAA16StreamGroupEntryVvs",
+                "moduleName": "SwiftRaydioSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14SwiftRaydioSDK14InteractionLogV6streamAA16StreamGroupEntryVvM",
+                "mangledName": "$s14SwiftRaydioSDK14InteractionLogV6streamAA16StreamGroupEntryVvM",
+                "moduleName": "SwiftRaydioSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
         "declKind": "Struct",
         "usr": "s:14SwiftRaydioSDK14InteractionLogV",
         "mangledName": "$s14SwiftRaydioSDK14InteractionLogV",
@@ -4873,6 +5481,266 @@
         "kind": "TypeDecl",
         "name": "SystemErrorLog",
         "printedName": "SystemErrorLog",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "workflow",
+            "printedName": "workflow",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WorkflowLogs",
+                "printedName": "SwiftRaydioSDK.WorkflowLogs",
+                "usr": "s:14SwiftRaydioSDK12WorkflowLogsO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14SwiftRaydioSDK14SystemErrorLogV8workflowAA12WorkflowLogsOvp",
+            "mangledName": "$s14SwiftRaydioSDK14SystemErrorLogV8workflowAA12WorkflowLogsOvp",
+            "moduleName": "SwiftRaydioSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WorkflowLogs",
+                    "printedName": "SwiftRaydioSDK.WorkflowLogs",
+                    "usr": "s:14SwiftRaydioSDK12WorkflowLogsO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14SwiftRaydioSDK14SystemErrorLogV8workflowAA12WorkflowLogsOvg",
+                "mangledName": "$s14SwiftRaydioSDK14SystemErrorLogV8workflowAA12WorkflowLogsOvg",
+                "moduleName": "SwiftRaydioSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WorkflowLogs",
+                    "printedName": "SwiftRaydioSDK.WorkflowLogs",
+                    "usr": "s:14SwiftRaydioSDK12WorkflowLogsO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14SwiftRaydioSDK14SystemErrorLogV8workflowAA12WorkflowLogsOvs",
+                "mangledName": "$s14SwiftRaydioSDK14SystemErrorLogV8workflowAA12WorkflowLogsOvs",
+                "moduleName": "SwiftRaydioSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14SwiftRaydioSDK14SystemErrorLogV8workflowAA12WorkflowLogsOvM",
+                "mangledName": "$s14SwiftRaydioSDK14SystemErrorLogV8workflowAA12WorkflowLogsOvM",
+                "moduleName": "SwiftRaydioSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "description",
+            "printedName": "description",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14SwiftRaydioSDK14SystemErrorLogV11descriptionSSvp",
+            "mangledName": "$s14SwiftRaydioSDK14SystemErrorLogV11descriptionSSvp",
+            "moduleName": "SwiftRaydioSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14SwiftRaydioSDK14SystemErrorLogV11descriptionSSvg",
+                "mangledName": "$s14SwiftRaydioSDK14SystemErrorLogV11descriptionSSvg",
+                "moduleName": "SwiftRaydioSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14SwiftRaydioSDK14SystemErrorLogV11descriptionSSvs",
+                "mangledName": "$s14SwiftRaydioSDK14SystemErrorLogV11descriptionSSvs",
+                "moduleName": "SwiftRaydioSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14SwiftRaydioSDK14SystemErrorLogV11descriptionSSvM",
+                "mangledName": "$s14SwiftRaydioSDK14SystemErrorLogV11descriptionSSvM",
+                "moduleName": "SwiftRaydioSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "error",
+            "printedName": "error",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14SwiftRaydioSDK14SystemErrorLogV5errors0E0_pvp",
+            "mangledName": "$s14SwiftRaydioSDK14SystemErrorLogV5errors0E0_pvp",
+            "moduleName": "SwiftRaydioSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "Swift.Error",
+                    "usr": "s:s5ErrorP"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14SwiftRaydioSDK14SystemErrorLogV5errors0E0_pvg",
+                "mangledName": "$s14SwiftRaydioSDK14SystemErrorLogV5errors0E0_pvg",
+                "moduleName": "SwiftRaydioSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "Swift.Error",
+                    "usr": "s:s5ErrorP"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14SwiftRaydioSDK14SystemErrorLogV5errors0E0_pvs",
+                "mangledName": "$s14SwiftRaydioSDK14SystemErrorLogV5errors0E0_pvs",
+                "moduleName": "SwiftRaydioSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14SwiftRaydioSDK14SystemErrorLogV5errors0E0_pvM",
+                "mangledName": "$s14SwiftRaydioSDK14SystemErrorLogV5errors0E0_pvM",
+                "moduleName": "SwiftRaydioSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
         "declKind": "Struct",
         "usr": "s:14SwiftRaydioSDK14SystemErrorLogV",
         "mangledName": "$s14SwiftRaydioSDK14SystemErrorLogV",
